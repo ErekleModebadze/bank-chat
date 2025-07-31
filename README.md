@@ -1,42 +1,20 @@
-# Quick Start
+# TBC Bank Multi-Agent Chatbot (In-Memory Version)
 
-1. Install uv [DOCUMENTATION](https://docs.astral.sh/uv/getting-started/installation/)
-```bash
-#On macOS/Linux
-curl -LsSf https://astral.sh/uv/install.sh | sh
+A simple multi-agent chatbot for TBC Bank built with Google Agent Development Kit (ADK), using in-memory storage for sessions and chat history, and integrated with Google Gemini embeddings for knowledge search.
 
-# On Windows (PowerShell)
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+## Features
 
-# Alternative: Install via pip
-pip install uv
+- Multi-agent system with Coordinator, Card Operations, Loan, and Support agents
+- Fully in-memory session and conversation management (no database required)
+- Retrieval-Augmented Generation (RAG) using Google Gemini embeddings and ChromaDB
+- REST API backend with FastAPI
+- React frontend with Material-UI chat interface
+- Simple simulated banking tools (card blocking, loan info, etc.)
 
-# Alternative: Install via pipx
-pipx install uv
-```
+## Getting Started
 
-1. Create virtual environment:
+### Prerequisites
 
-```bash
-# Create a virtual environment
-uv venv --python 3.12
-```
-
-2. Activate a virtual environment
-
-```bash
-# On macOS/Linux:
-source .venv/bin/activate
-
-# On Windows:
-.venv\Scripts\activate
-```
-
-2. Install project dependencies using uv:
-
-```bash
-uv pip install -e .
-```
-
-
-
+- Python 3.10+
+- Node.js 18+
+- Google API Key with access to Gemini embeddings

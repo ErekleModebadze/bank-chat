@@ -2,6 +2,8 @@
 
 A simple multi-agent chatbot for TBC Bank built with Google Agent Development Kit (ADK), using in-memory storage for sessions and chat history, and integrated with Google Gemini embeddings for knowledge search.
 
+![screenshot.png](screenshot.png)
+
 ## Features
 
 - Multi-agent system with Coordinator, Card Operations, Loan, and Support agents
